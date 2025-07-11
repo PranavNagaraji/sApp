@@ -1,0 +1,82 @@
+.carousel-section {
+    padding: 6rem 1.5rem;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.carousel-heading .label {
+    font-size: 0.875rem;
+    color: #7c3aed;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-heading .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-heading .subtitle {
+    font-size: 1rem;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+}
+
+.testimonial-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    height: 100%;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 9999px;
+    object-fit: cover;
+    margin: 0 auto 1rem auto;
+}
+
+.quote {
+    font-style: italic;
+    color: #374151;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    min-height: 60px;
+}
+
+.name {
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.25rem;
+}
+
+.role {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.slider-bars {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.bar {
+    width: 32px;
+    height: 4px;
+    background-color: #d1d5db;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bar.active {
+    background-color: #7c3aed;
+}

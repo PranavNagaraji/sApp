@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+img {
+  width: 206px;
+  height: 550px;
+}
+
+@layer utilities {
+  @keyframes arrow-move {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    49% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+
+    50% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    51% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-arrow-move {
+    animation: arrow-move 0.6s ease-in-out forwards;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

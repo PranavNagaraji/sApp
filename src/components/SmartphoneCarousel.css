@@ -1,0 +1,77 @@
+.carousel-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    color: #1a1a1a;
+}
+
+.carousel-heading .label {
+    display: inline-block;
+    background: #f3f3ff;
+    color: #6c4efc;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.carousel-heading .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0.2rem 0;
+    color: #1a1a1a;
+    letter-spacing: -0.5px;
+}
+
+.carousel-heading .subtitle {
+    color: #555;
+    max-width: 700px;
+    margin: 0.75rem auto 2rem;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+}
+
+.carousel-wrapper {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    max-height: 460px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.carousel-image:hover {
+    transform: scale(1.02);
+}
+
+.slider-bars {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 12px;
+}
+
+.bar {
+    width: 36px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.bar.active {
+    background-color: #6c4efc;
+}
